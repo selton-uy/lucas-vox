@@ -1,0 +1,39 @@
+.instrumentos__titulo{
+    font-weight: 500;
+    padding: 1em;
+}
+.instrumentos__lista{
+    display: flex;
+    position: relative;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    width: 100vw;
+    height: 40vh;
+    
+}
+.instrumentos__lista::-webkit-scrollbar{
+    display: none;
+}
+.instrumentos__lista-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    padding: .5em;
+}
+.lista__imagem{
+    width: 40vw;
+    height: 30vh;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px 0px #000;
+    margin-bottom: 1em;
+    object-fit: cover;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    scroll-behavior: smooth;
+    
+}
+.crop{
+    object-position: 0% 100%;
+}

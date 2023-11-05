@@ -1,0 +1,49 @@
+@import url("css/header.css");
+@import url("css/main.css");
+@import url("css/section.css");
+@import url("css/contato.css");
+@import url("css/instrumentos.css");
+@import url("css/about.css");
+:root{
+    --cinza-escuro:#1E2328;
+    --cinza-claro:#3B3F46;
+    --laranja:#FAB23D;
+    --laranja-claro:#FFC812;
+    --amarelo:#FFE012;
+    --branco:#F5F5EF;
+    
+    --fonte: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Prata', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 1em;
+}
+body{
+    background: var(--cinza-escuro);
+    font-family: var(--fonte);
+    font-size: 1em;
+    height: 100vh;
+    width: 100vw;
+    color: #F5F5EF;
+}
+.principal, 
+.section,
+.about,
+.instrumentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 0;
+}
+.rodape{
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+    text-align: center;
+    padding: 1em;
+}

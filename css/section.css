@@ -1,0 +1,12 @@
+.section__titulo{
+    padding:.5em 0 .5em 1em;
+    font-weight: 500;
+    font-size: 2em;
+}
+.section__subtitulo{
+    font-weight: 300;
+    
+}
+.video{
+    width: 90vw;
+}

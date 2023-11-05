@@ -1,0 +1,33 @@
+
+.principal__imagem{
+    width: 80vw;
+    border-radius: 25px;
+    padding: 1em;
+}
+.principal__titulo{
+    font-weight: 500;
+    font-size: 2em;
+}
+.principal__texto{
+    font-weight: 300;
+    font-size: 1.24em;
+}
+.principal__texto,
+.principal__titulo{
+    padding: 2% 10%;
+}
+.principal__titulo strong{
+    color: var(--amarelo);
+}
+.principal__butao{
+    border: 1px solid var(--laranja-claro);
+    border-radius: 10px;
+    margin: 1.25em 0;
+    padding: 1em;
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 1.25em;
+    background: var(--laranja);
+
+    box-shadow: 0 4px 4px 0 #000;
+}

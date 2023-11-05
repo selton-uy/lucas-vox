@@ -1,0 +1,31 @@
+.cabecalho{
+    color: var(--branco);
+    background-color: var(--laranja);
+    
+}
+
+.cabecalho__titulo{
+    font-family: var(--fonte-secundaria);
+    padding: .5em 0;
+    background-color: var(--laranja);
+    text-align: center;
+}
+.cabecalho__lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    color: var(--branco);
+    border-top: 1px solid var(--branco);
+    padding: .5em 0;
+}
+.cabecalho__lista-item{
+    text-wrap: nowrap;
+
+    
+}
+.cabecalho__links{
+    text-decoration: none;
+    color: var(--branco);
+    
+}
